@@ -76,7 +76,7 @@ export default function About() {
                 </div>
                 <div>
                   <h4 className="text-xl font-medium">Education</h4>
-                  <p className="text-gray-400">BE in Information Technology, 2024-2024</p>
+                  <p className="text-gray-400">BE in Information Technology, 2024-Present</p>
                 </div>
               </div>
 
