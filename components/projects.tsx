@@ -27,6 +27,23 @@ export default function Projects() {
         "Optimized model size for mobile deployment",
         "Added data augmentation to improve model robustness",
       ],
+    },{
+      id: 4,
+      title: "No₂ Prediction Machine Learning Model",
+      description: 
+        "A machine learning model for predicting NO₂ levels using air quality data. The model leverages regression techniques and feature engineering to provide accurate predictions.",
+      image: 
+        "https://i.postimg.cc/yxGST2Ky/Screenshot-2025-03-26-233729.png", 
+      category: "machine-learning",
+      technologies: ["Python", "Scikit-learn", "Pandas", "Regression", "Flask"],
+      githubLink: "https://github.com/Diwansu-pilania/streamlit-ml-app/blob/main/trainit.ipynb",
+      demoLink: "https://bare-truthful-zzyzx.anvil.app/",
+      features: [
+        "Predicts NO₂ concentration based on real-time environmental data",
+        "Uses feature selection and preprocessing for improved accuracy",
+        "Implements regression algorithms for precise estimations",
+        "Deployed as a web app for user-friendly interaction"
+      ],
     },
     {
       id: 2,
