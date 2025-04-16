@@ -27,7 +27,8 @@ export default function Projects() {
         "Optimized model size for mobile deployment",
         "Added data augmentation to improve model robustness",
       ],
-    },{
+    },
+    {
       id: 4,
       title: "No₂ Prediction Machine Learning Model",
       description: 
@@ -63,12 +64,31 @@ export default function Projects() {
         "Interactive visualization dashboard for results",
       ],
     },
+    {
+      id: 3,
+      title: "Power BI Dashboard",
+      description:
+        "An Interactive Power BI dashboard for visualizing and analyzing Hospital Waiting list.",
+      image:
+        "https://i.postimg.cc/nLgtzZsD/Screenshot-2025-04-13-150152.png",
+      category: "data-visualization",
+      githubLink: "https://github.com/",
+      demoLink: "https://kaggle.com/",
+      technologies: ["Power BI","Excel","Python"],
+      features: [
+        "Real-Time Insights: Visualizes patient waiting lists by department, urgency, status, and demographic breakdowns.",
+        "Average Wait Time Analysis: Tracks and compares average wait times across different specialties to identify bottlenecks.",
+        "Status Distribution Breakdown: Interactive visuals showing counts of patients by status (Waiting, Scheduled, Completed).",
+        " Data Exploration Table: Searchable and sortable patient-level table for operational and administrative use",
+      ],
+    },
   ]
 
   const categories = [
     { id: "all", label: "All Projects" },
     { id: "deep-learning", label: "Deep Learning" },
     { id: "machine-learning", label: "Machine Learning" },
+    { id: "data-visualization", label: "Data Visualization" },
   ]
 
   const filteredProjects = activeTab === "all" ? projects : projects.filter((project) => project.category === activeTab)
